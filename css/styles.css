@@ -731,6 +731,9 @@ a.link-studio::after {
 	color: rgba(255, 255, 255, 0.6);
 	outline: none;
 	cursor: pointer;
+	transition-property: border;
+	transition-duration: 250ms;
+	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .subscribe-button {
 	font-weight: 700;
@@ -749,6 +752,9 @@ a.link-studio::after {
 	width: 200px;
 	height: 50px;
 	cursor: pointer;
+	transition-property: background-color;
+	transition-duration: 250ms;
+	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .subscribe-icon {
 	width: 24px;
@@ -1028,6 +1034,9 @@ a.link-portfolio-secondary::after {
 	border-radius: 50%;
 	background-color: #ffffff;
 	border: 1px solid #999999;
+	transition-property: border;
+	transition-duration: 250ms;
+	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-title {
@@ -1084,6 +1093,9 @@ a.link-portfolio-secondary::after {
 	padding-left: 42px;
 	display: block;
 	resize: none;
+	transition-property: border;
+	transition-duration: 250ms;
+	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-input:hover,
@@ -1117,6 +1129,9 @@ a.link-portfolio-secondary::after {
 	top: 50%;
 	transform: translateY(-50%);
 	fill: #212121;
+	transition-property: fill;
+	transition-duration: 250ms;
+	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .input-text {
@@ -1137,6 +1152,9 @@ a.link-portfolio-secondary::after {
 	border: 1px solid rgba(33, 33, 33, 0.2);
 	border-radius: 4px;
 	display: block;
+	transition-property: border;
+	transition-duration: 250ms;
+	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .check-text {
@@ -1231,6 +1249,9 @@ a.link-portfolio-secondary::after {
 	text-align: center;
 	letter-spacing: 0.06em;
 	color: #ffffff;
+	transition-property: background-color;
+	transition-duration: 250ms;
+	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-submit:hover,
