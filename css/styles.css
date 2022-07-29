@@ -1148,7 +1148,7 @@ a.link-portfolio-secondary::after {
 	/* position: absolute; */
 	width: 448px;
 	height: 120px;
-
+	margin-bottom: 20px;
 	border: 1px solid rgba(33, 33, 33, 0.2);
 	border-radius: 4px;
 	display: block;
@@ -1167,6 +1167,7 @@ a.link-portfolio-secondary::after {
 	align-items: center;
 	position: relative;
 	color: #757575;
+	margin-bottom: 30px;
 	/* border-color: #2196f3; */
 }
 
